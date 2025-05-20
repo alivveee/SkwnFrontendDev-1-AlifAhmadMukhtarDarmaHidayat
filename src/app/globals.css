@@ -7,7 +7,7 @@
 
 /* Konfigurasi CSS-first Tailwind v4 */
 @theme {
-  /* Brand Identity */
+  /* Colors */
   --color-primary: #e5f0b6;
   --color-secondary: #2f241f;
 
@@ -54,6 +54,12 @@ body {
 
 button {
   cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+  background-color: #e2e2e2;
 }
 
 .swiper {

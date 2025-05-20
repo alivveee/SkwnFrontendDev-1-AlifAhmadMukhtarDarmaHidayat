@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
 
         {/* About Us */}
-        <div className="col-span-2 justify-self-center">
+        <div className="col-span-2 md:col-span-1 justify-self-center md:justify-self-start">
           <h4 className="text-neutral-900 font-semibold mb-6">About Us</h4>
           <ul className="space-y-6 text-muted">
             <li>
